@@ -1,12 +1,22 @@
-# React + Vite
+# CRUD Post App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple ReactJS CRUD (Create, Read, Update, Delete) application where users can add, edit, and delete posts.  
+It also shows the total number of posts dynamically at the top right.
 
-Currently, two official plugins are available:
+## 📌 Features
+- Add new posts (Title & Body)
+- Edit existing posts
+- Delete posts
+- Live post counter
+- Responsive and clean UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- ReactJS
+- Axios (for API calls)
+- CSS (Custom Styling)
+- JSONPlaceholder API (for demo data)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run Locally
+1. **Clone the repository**
+```bash
+git clone https://github.com/amritkumar8506/crud-post-app.git
